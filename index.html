@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Simple Donut - jQuery</title>
+    <link rel="stylesheet" href="_styles/style.css" type="text/css">
+    <link rel="stylesheet" href="_styles/simple-donut.css" type="text/css">
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script type="text/javascript">
+      if (typeof jQuery == 'undefined') {
+        document.write(unescape("%3Cscript src='_scripts/jquery-3.1.1.min.js' type='text/javascript'%3E%3C/script%3E"));
+      }
+    </script> <!-- Load local jQuery if Google CDN is unreachable -->
+    <script type="text/javascript" src="_scripts/simple-donut-jquery.js"></script>
+  </head>
+  <body>
+
+    <div id="specificChart" class="donut-size">
+      <div class="pie-wrapper">
+        <span class="label">
+          <span class="num">0</span><span class="smaller">%</span>
+        </span>
+        <div class="pie">
+          <div class="left-side half-circle"></div>
+          <div class="right-side half-circle"></div>
+        </div>
+        <div class="shadow"></div>
+      </div>
+    </div>
+
+    <script>
+      updateDonutChart('#specificChart', 77, true);
+    </script>
+  </body>
+</html>
