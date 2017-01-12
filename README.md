@@ -2,13 +2,17 @@
 
 This is a simple Donut and Pie chart function written in HTML/Sass/jQuery.
 
-It produces this page:
+**For other simple donuts written in other JS libraries/frameworks, [go to the main repo](https://github.com/simple-donut/simple-donut.github.io).**
+
+This repo produces this page:
 
 * https://simple-donut.github.io/simple-donut-jquery
 
 You can see a CodePen version here:
 
 * http://codepen.io/TheJaredWilcurt/pen/wgGGjL
+
+* * *
 
 What you need for your project from this repo:
 
